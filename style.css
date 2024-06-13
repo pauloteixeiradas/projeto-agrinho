@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: 'Poppins', sans-serif;
+    }
+    .cabecalho {
+    background-color: #426143;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    }
+    .cabecalho-imagem{
+    width: 10%;
+    }
+    .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+    }
+    .pecuaria-imagem{
+    width: 25%;
+    }
+    .pecuaria{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    }
+    .pecuaria-div-conteudo{
+    width: 35%;
+    }
+    
+    .pecuaria-titulo{
+    padding: 24px 0;
+    }
